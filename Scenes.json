@@ -1,0 +1,84 @@
+{
+  "Id": "guid1234",
+  "AccountId":"guidId5890",
+  "VideoID": "My Awesome Video",
+  "Scenes": [
+    {
+        "ID":"guid345",
+        "Type": "Text",
+        "Details":
+        {
+          "FriendlyKey": "FirstName",
+          "DefaultText": "Text to be rendered if null",
+          "X": 340,
+          "Y": 22,
+          "Start": 122,
+          "End": 240,
+          "Font":
+          {
+            "Name": "Lato.ttf",
+            "Size": 44,
+            "Weight": "Bold",
+            "Color": "Blue",
+            "BackgroundColor": "White",
+            "Alpha": ".9",
+            "Skew": "Not sure how this will work"
+          },
+          "Animation":
+          {
+            "Template": "KenBurns",
+            "In":
+            {
+              "Duration": 1
+            },
+            "Out":
+            {
+               "Duration": 5
+            }
+          }
+        }
+    },
+   {
+        "ID":"guid345",
+        "Type": "Text",
+        "FriendlyKey": "LastName",
+        "Details":
+        {  
+          "DefaultText": "Smith",
+          "X": 340,
+          "Y": 22,
+          "Start": 122,
+          "End": 240,
+          "z-index":1,
+          "Font":
+          {
+            "Name": "TimesNewRoman.ttf",
+            "Size": 44,
+            "Weight": "Normal",
+            "Color": "Blue",
+            "BackgroundColor": "None",
+            "Alpha": "1",
+            "Skew": "Not sure how this will work"
+          },
+          "Animation":
+          {
+            "Template": "KenBurns",
+            "In":
+            {
+              "Duration": 1
+            },
+            "Out":
+            {
+               "Duration": 1
+            }
+          }
+        }
+    }
+  ],
+  
+  "Meta":{
+    "Created": 12408174940,
+    "Updated": 12408174940,
+    "LastModifiedBy": "UserId"
+  }
+}

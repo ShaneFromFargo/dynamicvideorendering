@@ -1,0 +1,40 @@
+{
+  "Id": "guid1234",
+  "AccountId":"guidId5890",
+  "Title": "My Awesome Video",
+  "Video": {
+    "s3_location": "aws.amazon.com/myfile.mp4",
+    "codec_name": "mp4",
+    "codec_long_name": "Windows Media Video 9",
+    "codec_type": "video",
+    "codec_time_base": "1/1000",
+    "codec_tag_string": "WMV3",
+    "codec_tag": "0x33564d57",
+    "width": 320,
+    "height": 240,
+    "has_b_frames": 0,
+    "pix_fmt": "yuv420p",
+    "level": -99,
+    "r_frame_rate": "30000/1001",
+    "avg_frame_rate": "0/0",
+    "time_base": "1/1000",
+    "start_time": "0.000",
+    "duration": "300.066",
+    "filename": "somefile.asf",
+    "nb_streams": 1,
+    "format_name": "asf",
+    "format_long_name": "ASF format",
+    "tags": {
+        "WMFSDKVersion": "10.00.00.3646",
+        "WMFSDKNeeded": "0.0.0.0000",
+        "IsVBR": "0",
+        "language":"eng"
+    }
+    
+  },
+  "Meta":{
+    "Created": 12408174940,
+    "Updated": 12408174940,
+    "LastModifiedBy": "UserId"
+  }
+}

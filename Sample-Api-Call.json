@@ -1,0 +1,18 @@
+{
+  "AccountId":"guidId5890",
+  "VideoID": "videoguid1234",
+  "RenderParameters": [
+    {
+        "FirstName":"Bob"
+    },
+    {
+         "LastName": "Smith"
+    },
+    {
+          "WelcomeText": "Thanks for joining us this spring",
+          "Color": "Purple"
+    }
+    ],
+    "OutputLocation": "amazons3.com/outputvideo.mp4"
+
+}
