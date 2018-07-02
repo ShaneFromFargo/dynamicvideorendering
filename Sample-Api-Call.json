@@ -1,6 +1,6 @@
 {
   "AccountId":"guidId5890",
-  "VideoID": "videoguid1234",
+  "SceneID": "videoguid1234",
   "RenderParameters": [
     {
         "FirstName":"Bob"

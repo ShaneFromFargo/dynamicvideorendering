@@ -1,17 +1,21 @@
 {
   "Id": "guid1234",
   "AccountId":"guidId5890",
-  "VideoID": "My Awesome Video",
+  "VideoId": "My Awesome Video",
   "Scenes": [
     {
         "ID":"guid345",
         "Type": "Text",
+        "FriendlyKey": "FirstName",
         "Details":
         {
-          "FriendlyKey": "FirstName",
           "DefaultText": "Text to be rendered if null",
-          "X": 340,
-          "Y": 22,
+          "Position":
+          {
+              "template":"center",
+              "X": null,
+              "Y": null
+          },
           "Start": 122,
           "End": 240,
           "Font":
@@ -26,7 +30,7 @@
           },
           "Animation":
           {
-            "Template": "KenBurns",
+            "Template": "Fade",
             "In":
             {
               "Duration": 1
@@ -45,8 +49,11 @@
         "Details":
         {  
           "DefaultText": "Smith",
-          "X": 340,
-          "Y": 22,
+          "Position":
+          {
+            "X": 340,
+            "Y": 22
+          },
           "Start": 122,
           "End": 240,
           "z-index":1,
