@@ -39,6 +39,11 @@
             {
                "Duration": 5
             }
+          },
+          "Effect":
+          {
+            "Template": "ColorPop",
+             "ParametersAssociatedWithEffect": 4
           }
         }
     },
@@ -78,6 +83,11 @@
             {
                "Duration": 1
             }
+          },
+          "Effect":
+          {
+            "Template": "ColorPop",
+             "ParametersAssociatedWithEffect": 4
           }
         }
     }
